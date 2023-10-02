@@ -1,0 +1,67 @@
+.organizers{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin-top: 6rem;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(20, 20, 20);
+    padding: 4rem;
+    width: 100%;
+}
+.heading{
+    font-weight: bold;
+    color: white;
+}
+.row-1{
+    gap: 11rem;
+    display: flex;
+    flex-direction: row;
+}
+.row-2{
+    display: flex;
+    flex-direction: row;
+    gap: 10rem;
+}
+.ellipse{
+    position: absolute;
+    width: 1071px;
+    height: 102px;
+    transform: rotate(-21.033deg);
+    border-radius: 1071px;
+    background: rgba(116, 77, 0, 0.56);
+    filter: blur(99px);
+}
+.numbers{
+    position: absolute;
+    width: 588px;
+    height: 105px;
+    color: #FE040E;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    filter: blur(7.5px);
+}
+.num1{
+    right: 1rem;
+    top: 54rem;
+}
+.num2{
+    left: 5rem;
+    top: 40rem;
+}
+.num3{
+    left: 5rem;
+    top: 66rem;
+}
+.division{
+    background-color: white;
+    width: 100%;
+    height: 1px;
+    margin-top: 1rem;
+}
+.partners-marquee{
+    margin-top: 2rem;
+    width: 100%;
+}

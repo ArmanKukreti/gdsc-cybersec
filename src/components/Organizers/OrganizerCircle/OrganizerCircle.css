@@ -1,0 +1,15 @@
+.circle{
+    background-color: white;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+.name{
+    margin-top: 13px;
+    color: white;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-align: center;
+}

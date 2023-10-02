@@ -1,9 +1,12 @@
 import './App.css';
+import Events from './components/Events/Events';
+import Organizers from './components/Organizers/Organizers';
 
 function App() {
   return (
     <div className="App">
-      <h1>Let's Get Started...</h1>
+      <Events/>
+      <Organizers/>
     </div>
   );
 }
