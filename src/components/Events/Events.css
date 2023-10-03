@@ -13,6 +13,18 @@
 .event-cards{
     display: flex;
     flex-direction: row;
-    gap: 70px;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+@media screen and (max-width: 850px) {
+    .event-cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        gap: 2rem;
+    }
 }
 

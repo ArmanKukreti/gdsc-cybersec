@@ -25,7 +25,7 @@
 }
 .ellipse{
     position: absolute;
-    width: 1071px;
+    width: 100%;
     height: 102px;
     transform: rotate(-21.033deg);
     border-radius: 1071px;
@@ -34,8 +34,7 @@
 }
 .numbers{
     position: absolute;
-    width: 588px;
-    height: 105px;
+    height: auto;
     color: #FE040E;
     font-size: 50px;
     font-style: normal;
@@ -44,16 +43,16 @@
     filter: blur(7.5px);
 }
 .num1{
-    right: 1rem;
-    top: 54rem;
+    right: 3rem;
+    top: 115rem;
 }
 .num2{
     left: 5rem;
-    top: 40rem;
+    top: 105rem;
 }
 .num3{
-    left: 5rem;
-    top: 66rem;
+    left: 9rem;
+    top: 88rem;
 }
 .division{
     background-color: white;
@@ -64,4 +63,25 @@
 .partners-marquee{
     margin-top: 2rem;
     width: 100%;
+}
+
+@media screen and (max-width: 940px) {
+    .row-1, .row-2{
+        flex-direction: column;
+        gap: 3rem;
+    }
+    .num1{
+        top: 120rem;
+    }
+    .num2{
+        top: 108rem;
+    }
+    .num3{
+        top: 90rem;
+    }
+}
+@media screen and (max-width: 850px) {
+    .numbers{
+        display: none;
+    }
 }
